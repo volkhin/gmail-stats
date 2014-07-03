@@ -1,0 +1,36 @@
+{
+  "author": "Artem Volkhin",
+  "name": "gmail-stats",
+  "description": "Provide analytics based on your gmail activity",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "0.8 || 0.9 || 0.10"
+  },
+  "scripts": {
+    "test": "",
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "coffee-script-brunch": ">= 1.0 < 1.8",
+
+    "css-brunch": ">= 1.0 < 1.8",
+    "stylus-brunch": ">= 1.0 < 1.8",
+
+    "handlebars-brunch": ">= 1.0 < 1.8",
+
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+
+    "coffeelint-brunch": ">= 1.0 < 1.8",
+    "imageoptmizer-brunch": "~0.0.3",
+    "auto-reload-brunch": ">= 1.0 < 1.8"
+  },
+  "devDependencies": {
+  }
+}

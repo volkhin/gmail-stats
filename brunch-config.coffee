@@ -3,8 +3,6 @@ exports.config =
     javascripts:
       joinTo:
         'js/app.js': /^(vendor|bower_components|app)/
-      order:
-        after: ['bower_components/swag/lib/swag.js']
       pluginHelpers: 'js/app.js'
     stylesheets:
       joinTo:
@@ -16,7 +14,7 @@ exports.config =
       enabled:
         js: on
         css: on
-        assets: off
+        assets: on
     imageoptimizer:
       path: 'images'
       smushit: no

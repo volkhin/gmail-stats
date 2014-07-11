@@ -4,17 +4,18 @@
   "main": "public/javascripts/app.js",
   "ignore": [
     "**/.*",
-  "node_modules",
-  "bower_components"
-    ],
+    "node_modules",
+    "bower_components"
+  ],
   "dependencies": {
-    "swag": "~0.5.0",
     "lodash": "~2",
     "jquery": "~2",
     "backbone": "~1",
-    "normalize-css": "~2",
     "h5bp-helpers": "~0.1",
-    "font-awesome": "~4"
+    "font-awesome": "~4",
+    "bootstrap": "~3.2.0",
+    "chartjs": "1",
+    "eventEmitter": "~4.2.7"
   },
   "overrides": {
     "backbone": {
@@ -25,7 +26,10 @@
       }
     },
     "font-awesome": {
-      "main": ["fonts", "css"]
+      "main": [
+        "fonts",
+        "css"
+      ]
     },
     "swag": {
       "dependencies": {}

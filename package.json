@@ -16,21 +16,17 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.8",
-    "coffee-script-brunch": ">= 1.0 < 1.8",
-
-    "css-brunch": ">= 1.0 < 1.8",
-    "stylus-brunch": ">= 1.0 < 1.8",
-
-    "handlebars-brunch": ">= 1.0 < 1.8",
-
-    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "auto-reload-brunch": ">= 1.0 < 1.8",
+    "brunch": "brunch/brunch",
     "clean-css-brunch": ">= 1.0 < 1.8",
-
+    "coffee-script-brunch": ">= 1.0 < 1.8",
     "coffeelint-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "handlebars-brunch": ">= 1.0 < 1.8",
     "imageoptmizer-brunch": "~0.0.3",
-    "auto-reload-brunch": ">= 1.0 < 1.8"
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "stylus-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
